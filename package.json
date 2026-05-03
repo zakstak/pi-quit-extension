@@ -1,0 +1,14 @@
+{
+  "name": "pi-quit-extension",
+  "version": "0.1.0",
+  "description": "Pi extension that lets you quit by typing exit or :q.",
+  "keywords": ["pi-package", "pi", "extension"],
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
